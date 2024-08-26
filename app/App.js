@@ -6,7 +6,7 @@ const USE_ROUTER = false
 class App {
 
   HomeController = new HomeController()
-  PlayersController = new PlayersController
+  PlayersController = new PlayersController()
 
   constructor() {
     if (USE_ROUTER) {
